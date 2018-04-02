@@ -1,0 +1,176 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.16
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{8E3ED540-EA1D-4ABE-9823-226B08040F1F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Libraries", "Libraries", "{63CCE156-804B-44B4-BE53-450997B6AE38}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{F274D7ED-E3BF-4EF0-A62E-84B1ABE61A27}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{435618A4-2715-413D-9DDE-6680DD6ED046}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Repositories", "Repositories", "{6313D6B8-47C2-4FC4-966C-643CE8D1B77B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "RestClient", "RestClient", "{355DFFD7-1681-435C-B8BC-D29D4F16BB92}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HappySale.Api", "Presentation\HappySale.Api\HappySale.Api.csproj", "{0D6BEFF5-C63C-41B3-973F-71A5060FA881}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HappySale.Core", "Common\HappySale.Core\HappySale.Core.csproj", "{759238FF-560D-4DD7-A886-83E68D6FC17F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HappySale.Repositories", "Repositories\HappySale.Repositories\HappySale.Repositories.csproj", "{6A81D592-EA1B-4100-9871-F1A35C349A99}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HappySale.Services", "Libraries\Services\HappySale.Services\HappySale.Services.csproj", "{443678A8-BA30-4665-A358-91993EDB943E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HappySale.RestClient", "Libraries\RestClient\HappySale.RestClient\HappySale.RestClient.csproj", "{AE0F56FB-0A44-47FB-B087-7B20EC82C609}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HappySale.Web", "Presentation\HappySale.Web\HappySale.Web.csproj", "{32747E35-74F5-4BFB-85B6-7DE35D4E9053}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Schedulers", "Schedulers", "{D8BF020D-03EE-446C-B387-24B7781225DA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HappySale.PageGenerator", "Schedulers\HappySale.PageGenerator\HappySale.PageGenerator.csproj", "{253E3E54-675F-4C1F-B6D1-C2F3A675187F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HappySale.TwitterApi", "Libraries\Services\HappySale.TwitterApi\HappySale.TwitterApi.csproj", "{4827EF03-64E6-447D-A166-4F76FD8EE327}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HappySale.HangFireServer", "Schedulers\HappySale.HangFireServer\HappySale.HangFireServer.csproj", "{C18D1053-EB7B-445B-8C3F-BAA60B648E82}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HappySale.ElasticSearch", "Libraries\Services\HappySale.ElasticSearch\HappySale.ElasticSearch.csproj", "{37070CA1-447A-4A7B-AE9A-E583ECDBB7C2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HappySale.MailClient", "Libraries\Services\HappySale.MailClient\HappySale.MailClient.csproj", "{F2CEEFE3-1561-4B08-869B-B47F4545FBED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HappySale.PageGenConsole", "Schedulers\HappySale.PageGenConsole\HappySale.PageGenConsole.csproj", "{E55E2B08-67D7-4B17-8BCB-D20612078452}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0D6BEFF5-C63C-41B3-973F-71A5060FA881}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D6BEFF5-C63C-41B3-973F-71A5060FA881}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D6BEFF5-C63C-41B3-973F-71A5060FA881}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D6BEFF5-C63C-41B3-973F-71A5060FA881}.Release|Any CPU.Build.0 = Release|Any CPU
+		{759238FF-560D-4DD7-A886-83E68D6FC17F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{759238FF-560D-4DD7-A886-83E68D6FC17F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{759238FF-560D-4DD7-A886-83E68D6FC17F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{759238FF-560D-4DD7-A886-83E68D6FC17F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A81D592-EA1B-4100-9871-F1A35C349A99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A81D592-EA1B-4100-9871-F1A35C349A99}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A81D592-EA1B-4100-9871-F1A35C349A99}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A81D592-EA1B-4100-9871-F1A35C349A99}.Release|Any CPU.Build.0 = Release|Any CPU
+		{443678A8-BA30-4665-A358-91993EDB943E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{443678A8-BA30-4665-A358-91993EDB943E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{443678A8-BA30-4665-A358-91993EDB943E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{443678A8-BA30-4665-A358-91993EDB943E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE0F56FB-0A44-47FB-B087-7B20EC82C609}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE0F56FB-0A44-47FB-B087-7B20EC82C609}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE0F56FB-0A44-47FB-B087-7B20EC82C609}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE0F56FB-0A44-47FB-B087-7B20EC82C609}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32747E35-74F5-4BFB-85B6-7DE35D4E9053}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32747E35-74F5-4BFB-85B6-7DE35D4E9053}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32747E35-74F5-4BFB-85B6-7DE35D4E9053}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32747E35-74F5-4BFB-85B6-7DE35D4E9053}.Release|Any CPU.Build.0 = Release|Any CPU
+		{253E3E54-675F-4C1F-B6D1-C2F3A675187F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{253E3E54-675F-4C1F-B6D1-C2F3A675187F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{253E3E54-675F-4C1F-B6D1-C2F3A675187F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{253E3E54-675F-4C1F-B6D1-C2F3A675187F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4827EF03-64E6-447D-A166-4F76FD8EE327}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4827EF03-64E6-447D-A166-4F76FD8EE327}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4827EF03-64E6-447D-A166-4F76FD8EE327}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4827EF03-64E6-447D-A166-4F76FD8EE327}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C18D1053-EB7B-445B-8C3F-BAA60B648E82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C18D1053-EB7B-445B-8C3F-BAA60B648E82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C18D1053-EB7B-445B-8C3F-BAA60B648E82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C18D1053-EB7B-445B-8C3F-BAA60B648E82}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37070CA1-447A-4A7B-AE9A-E583ECDBB7C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37070CA1-447A-4A7B-AE9A-E583ECDBB7C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37070CA1-447A-4A7B-AE9A-E583ECDBB7C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37070CA1-447A-4A7B-AE9A-E583ECDBB7C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2CEEFE3-1561-4B08-869B-B47F4545FBED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2CEEFE3-1561-4B08-869B-B47F4545FBED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2CEEFE3-1561-4B08-869B-B47F4545FBED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2CEEFE3-1561-4B08-869B-B47F4545FBED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E55E2B08-67D7-4B17-8BCB-D20612078452}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E55E2B08-67D7-4B17-8BCB-D20612078452}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E55E2B08-67D7-4B17-8BCB-D20612078452}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E55E2B08-67D7-4B17-8BCB-D20612078452}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{435618A4-2715-413D-9DDE-6680DD6ED046} = {63CCE156-804B-44B4-BE53-450997B6AE38}
+		{6313D6B8-47C2-4FC4-966C-643CE8D1B77B} = {63CCE156-804B-44B4-BE53-450997B6AE38}
+		{355DFFD7-1681-435C-B8BC-D29D4F16BB92} = {63CCE156-804B-44B4-BE53-450997B6AE38}
+		{0D6BEFF5-C63C-41B3-973F-71A5060FA881} = {F274D7ED-E3BF-4EF0-A62E-84B1ABE61A27}
+		{759238FF-560D-4DD7-A886-83E68D6FC17F} = {8E3ED540-EA1D-4ABE-9823-226B08040F1F}
+		{6A81D592-EA1B-4100-9871-F1A35C349A99} = {6313D6B8-47C2-4FC4-966C-643CE8D1B77B}
+		{443678A8-BA30-4665-A358-91993EDB943E} = {435618A4-2715-413D-9DDE-6680DD6ED046}
+		{AE0F56FB-0A44-47FB-B087-7B20EC82C609} = {355DFFD7-1681-435C-B8BC-D29D4F16BB92}
+		{32747E35-74F5-4BFB-85B6-7DE35D4E9053} = {F274D7ED-E3BF-4EF0-A62E-84B1ABE61A27}
+		{253E3E54-675F-4C1F-B6D1-C2F3A675187F} = {D8BF020D-03EE-446C-B387-24B7781225DA}
+		{4827EF03-64E6-447D-A166-4F76FD8EE327} = {435618A4-2715-413D-9DDE-6680DD6ED046}
+		{C18D1053-EB7B-445B-8C3F-BAA60B648E82} = {D8BF020D-03EE-446C-B387-24B7781225DA}
+		{37070CA1-447A-4A7B-AE9A-E583ECDBB7C2} = {435618A4-2715-413D-9DDE-6680DD6ED046}
+		{F2CEEFE3-1561-4B08-869B-B47F4545FBED} = {435618A4-2715-413D-9DDE-6680DD6ED046}
+		{E55E2B08-67D7-4B17-8BCB-D20612078452} = {D8BF020D-03EE-446C-B387-24B7781225DA}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7C063868-F572-4690-9DC1-9F534C159B3E}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 13
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://inspirelabsdev.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Presentation\\HappySale.Api\\HappySale.Api.csproj
+		SccProjectTopLevelParentUniqueName1 = HappySale.sln
+		SccProjectName1 = Presentation/HappySale.Api
+		SccLocalPath1 = Presentation\\HappySale.Api
+		SccProjectUniqueName2 = Common\\HappySale.Core\\HappySale.Core.csproj
+		SccProjectTopLevelParentUniqueName2 = HappySale.sln
+		SccProjectName2 = Common/HappySale.Core
+		SccLocalPath2 = Common\\HappySale.Core
+		SccProjectUniqueName3 = Repositories\\HappySale.Repositories\\HappySale.Repositories.csproj
+		SccProjectTopLevelParentUniqueName3 = HappySale.sln
+		SccProjectName3 = Repositories/HappySale.Repositories
+		SccLocalPath3 = Repositories\\HappySale.Repositories
+		SccProjectUniqueName4 = Libraries\\Services\\HappySale.Services\\HappySale.Services.csproj
+		SccProjectTopLevelParentUniqueName4 = HappySale.sln
+		SccProjectName4 = Libraries/Services/HappySale.Services
+		SccLocalPath4 = Libraries\\Services\\HappySale.Services
+		SccProjectUniqueName5 = Libraries\\RestClient\\HappySale.RestClient\\HappySale.RestClient.csproj
+		SccProjectTopLevelParentUniqueName5 = HappySale.sln
+		SccProjectName5 = Libraries/RestClient/HappySale.RestClient
+		SccLocalPath5 = Libraries\\RestClient\\HappySale.RestClient
+		SccProjectUniqueName6 = Presentation\\HappySale.Web\\HappySale.Web.csproj
+		SccProjectTopLevelParentUniqueName6 = HappySale.sln
+		SccProjectName6 = Presentation/HappySale.Web
+		SccLocalPath6 = Presentation\\HappySale.Web
+		SccProjectUniqueName7 = Schedulers\\HappySale.PageGenerator\\HappySale.PageGenerator.csproj
+		SccProjectTopLevelParentUniqueName7 = HappySale.sln
+		SccProjectName7 = Schedulers/HappySale.PageGenerator
+		SccLocalPath7 = Schedulers\\HappySale.PageGenerator
+		SccProjectUniqueName8 = Libraries\\Services\\HappySale.TwitterApi\\HappySale.TwitterApi.csproj
+		SccProjectTopLevelParentUniqueName8 = HappySale.sln
+		SccProjectName8 = Libraries/Services/HappySale.TwitterApi
+		SccLocalPath8 = Libraries\\Services\\HappySale.TwitterApi
+		SccProjectUniqueName9 = Schedulers\\HappySale.HangFireServer\\HappySale.HangFireServer.csproj
+		SccProjectTopLevelParentUniqueName9 = HappySale.sln
+		SccProjectName9 = Schedulers/HappySale.HangFireServer
+		SccLocalPath9 = Schedulers\\HappySale.HangFireServer
+		SccProjectUniqueName10 = Libraries\\Services\\HappySale.ElasticSearch\\HappySale.ElasticSearch.csproj
+		SccProjectTopLevelParentUniqueName10 = HappySale.sln
+		SccProjectName10 = Libraries/Services/HappySale.ElasticSearch
+		SccLocalPath10 = Libraries\\Services\\HappySale.ElasticSearch
+		SccProjectUniqueName11 = Libraries\\Services\\HappySale.MailClient\\HappySale.MailClient.csproj
+		SccProjectTopLevelParentUniqueName11 = HappySale.sln
+		SccProjectName11 = Libraries/Services/HappySale.MailClient
+		SccLocalPath11 = Libraries\\Services\\HappySale.MailClient
+		SccProjectUniqueName12 = Schedulers\\HappySale.PageGenConsole\\HappySale.PageGenConsole.csproj
+		SccProjectTopLevelParentUniqueName12 = HappySale.sln
+		SccProjectName12 = Schedulers/HappySale.PageGenConsole
+		SccLocalPath12 = Schedulers\\HappySale.PageGenConsole
+	EndGlobalSection
+EndGlobal
